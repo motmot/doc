@@ -1,0 +1,51 @@
+digraph G {
+  size ="6,4";
+  rankdir=BT;
+  subgraph cluster0 {
+    libcamiface -> cam_iface;
+    cam_iface -> fview;
+    fview -> flytrax;
+    fview_ext_trig -> fview;
+    pygarrayimage -> wxglvideo;
+    wxglvideo -> fview;
+    realtime_image_analysis -> flytrax;
+    fastimage -> flytrax;
+    FlyMovieFormat -> fview;
+    FlyMovieFormat -> flytrax;
+    flytrax -> fview [style=dotted];
+    fastimage -> trackem;
+    realtime_image_analysis -> trackem;
+    trackem -> fview [style=dotted];
+    fview -> trackem;
+    labelloc=b;
+    labeljust=l;
+    label = "packages in motmot";
+  }
+
+  quicktime -> libcamiface [style=dotted];
+  libdc1394 -> libcamiface [style=dotted];
+  libprosilica -> libcamiface [style=dotted];
+  wxpython -> wxglvideo;
+  wxpython -> fview;
+  opengl -> pyglet;
+  pyglet -> pygarrayimage;
+  ipp -> realtime_image_analysis;
+  ipp -> fastimage;
+
+  libcamiface [label="libcamiface (C)"];
+  cam_iface [label="cam_iface (Python)"];
+
+  quicktime [label="QuickTime"];
+  libdc1394 [label="libdc1394"];
+  libprosilica [label="libprosilica"];
+  ipp [label="Framewave or Intel IPP"];
+  ipp [label="Intel IPP"];
+  opengl [label="OpenGL",
+          URL="http://opengl.org/",
+          tooltip="OpenGL plotting library"];
+  pyglet [label="pyglet"];
+  wxpython [label="wxPython"];
+  fview [shape=box,style=filled];
+  trackem [shape=box,style=filled];
+  flytrax [shape=box,style=filled];
+}
