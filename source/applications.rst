@@ -16,8 +16,9 @@ includes a convenient plugin mechanism by which realtime video
 analysis can be performed. FView runs on Linux, Mac OS X, and
 Windows. This application is essentially a GUI frontend for
 :mod:`cam_iface` built using the wx toolkit.  You may be interested in
-visiting the `screenshot directory`__.  Here is a screenshot of fview
-running on Mac OS X using an iSight camera:
+visiting the `screenshot directory`__.  It may optionally use our
+inexpensive, custom integrated :ref:`fview_ext_trig-overview`. Here is
+a screenshot of fview running on Mac OS X using an iSight camera:
 
 __ http://code.astraw.com/projects/motmot/trac/browser/trunk/fview/screenshots
 

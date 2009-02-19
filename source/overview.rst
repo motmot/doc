@@ -27,8 +27,8 @@ Packages within motmot
 
 * :ref:`libcamiface <libcamiface>` - camera interface C API
 * :mod:`cam_iface` - Python wrapper of libcamiface
-* :mod:`fview_ext_trig` - software and firmware for precisely timed
-  trigger generation with synchronized analog input
+* :mod:`fview_ext_trig-api` - software and firmware for :ref:`precisely timed
+  trigger generation with synchronized analog input <fview_ext_trig-overview>`
 
 **Core display infrastructure**
 

@@ -3,11 +3,14 @@ Motmot camera utilities introduction
 ************************************
 
 Motmot is software for the realtime collection and analysis of
-uncompressed digital images from a variety of sources. A primary goal
-is high throughput and low latency for use in realtime
-applications. We routinely use these libraries to process data from
-cameras with data rates up to 60 MB per second (with processing power
-to spare) on commodity hardware.
+uncompressed digital images from a variety of sources. The target
+audience ranges from anyone needing a simple GUI to record video to
+the developer wanting to implement a new realtime vision algorithm
+within an open, plugin-based environment. A primary goal is high
+throughput and low latency for use in realtime applications. We
+routinely use these libraries to process data from cameras with data
+rates up to 60 MB per second (with processing power to spare) on
+commodity hardware.
 
 The program :mod:`fview` is a high-level application for viewing
 camera output, adjusting camera parameters, streaming video to disk,
@@ -19,6 +22,12 @@ The primary language is Python_, but the low-level camera access
 library (:ref:`libcamiface <libcamiface>`) is in C. Lots of heavy
 lifting happens using numpy_, C libraries utilizing SIMD instructions,
 or custom C code.
+
+There is also firmware for a $30 USB device to :ref:`trigger frame
+acquisition and sample analog inputs with precise timing
+<fview_ext_trig-overview>`.
+
+.. :ref:`trigger camera frame acquisition and acquire analog input data with precise timing <fview_ext_trig_overview>`.
 
 .. _Python:  http://python.org/
 .. _numpy: http://numpy.scipy.org/
@@ -52,6 +61,7 @@ __ http://www.caltech.edu/
 
   overview.rst
   applications.rst
+  camtrig/OVERVIEW.rst
   packages.rst
   citations.rst
 
