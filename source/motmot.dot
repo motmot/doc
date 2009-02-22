@@ -1,37 +1,35 @@
 digraph G {
   size ="6,4";
-  rankdir=BT;
   subgraph cluster0 {
-    libcamiface -> cam_iface;
-    cam_iface -> fview;
-    fview -> flytrax;
-    fview -> fview_ext_trig;
-    fview_ext_trig -> fview [style=dotted];
-    pygarrayimage -> wxglvideo;
-    wxglvideo -> fview;
-    realtime_image_analysis -> flytrax;
-    fastimage -> flytrax;
-    FlyMovieFormat -> fview;
-    FlyMovieFormat -> flytrax;
-    flytrax -> fview [style=dotted];
-    fastimage -> trackem;
-    realtime_image_analysis -> trackem;
-    trackem -> fview [style=dotted];
-    fview -> trackem;
-    labelloc=b;
+    cam_iface -> libcamiface;
+    fview -> cam_iface;
+    flytrax -> fview;
+    fview_ext_trig -> fview;
+    fview -> fview_ext_trig fview [style=dotted];
+    wxglvideo -> pygarrayimage;
+    fview -> wxglvideo;
+    flytrax -> realtime_image_analysis;
+    flytrax -> fastimage;
+    fview -> FlyMovieFormat;
+    flytrax -> FlyMovieFormat;
+    fview -> flytrax [style=dotted];
+    trackem -> fastimage;
+    trackem -> realtime_image_analysis;
+    fview -> trackem [style=dotted];
+    trackem -> fview;
     labeljust=l;
     label = "packages in motmot";
   }
 
-  quicktime -> libcamiface [style=dotted];
-  libdc1394 -> libcamiface [style=dotted];
-  libprosilica -> libcamiface [style=dotted];
-  wxpython -> wxglvideo;
-  wxpython -> fview;
-  opengl -> pyglet;
-  pyglet -> pygarrayimage;
-  ipp -> realtime_image_analysis;
-  ipp -> fastimage;
+  libcamiface -> quicktime [style=dotted];
+  libcamiface -> libdc1394 [style=dotted];
+  libcamiface -> libprosilica [style=dotted];
+  wxglvideo -> wxpython;
+  fview -> wxpython;
+  pyglet -> opengl;
+  pygarrayimage -> pyglet;
+  realtime_image_analysis -> ipp;
+  fastimage -> ipp;
 
   libcamiface [label="libcamiface (C)"];
   cam_iface [label="cam_iface (Python)"];
