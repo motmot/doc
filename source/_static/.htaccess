@@ -1,5 +1,5 @@
 # Keep old links working to new location of Trac.
-RedirectMatch permanent /projects/motmot/((wiki|timeline|roadmap|browser|report)(.*))$ /projects/motmot/trac/$1
+RedirectMatch permanent /projects/motmot/((wiki|timeline|roadmap|browser|report|log)(.*))$ /projects/motmot/trac/$1
 # This is temporary and will be removed when the new docs go live
 #Redirect temp /projects/motmot /projects/motmot/trac
 

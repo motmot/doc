@@ -5,7 +5,7 @@ digraph G {
     fview -> cam_iface;
     flytrax -> fview;
     fview_ext_trig -> fview;
-    fview -> fview_ext_trig fview [style=dotted];
+    fview -> fview_ext_trig [style=dotted];
     wxglvideo -> pygarrayimage;
     fview -> wxglvideo;
     flytrax -> realtime_image_analysis;
