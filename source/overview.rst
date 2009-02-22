@@ -27,7 +27,7 @@ Packages within motmot
 
 * :ref:`libcamiface <libcamiface>` - camera interface C API
 * :mod:`cam_iface` - Python wrapper of libcamiface
-* :mod:`fview_ext_trig-api` - software and firmware for :ref:`precisely timed
+* :mod:`fview_ext_trig` - software and firmware for :ref:`precisely timed
   trigger generation with synchronized analog input <fview_ext_trig-overview>`
 
 **Core display infrastructure**
@@ -49,6 +49,8 @@ Packages within motmot
 
 **FView plugins**
 
+* :mod:`fview_ext_trig` - software and firmware for :ref:`precisely timed
+  trigger generation with synchronized analog input <fview_ext_trig-overview>`
 * :mod:`flytrax` - fview plugin for tracking 2D points in realtime and saving
   data and small images
 * fview_PLUGIN_TEMPLATE - blank fview plugin to use as template for
