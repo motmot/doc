@@ -54,7 +54,7 @@ digraph G {
   trackem [shape=box,style=filled];
   flytrax [shape=box,style=filled];
   fview_ext_trig [shape=box,style=filled,
-              URL="http://code.astraw.com/projects/motmot/fview_ext_trig.html"];
+              URL="http://code.astraw.com/projects/motmot/camtrig/OVERVIEW.html"];
   wxglvideo [URL="http://code.astraw.com/projects/motmot/wxglvideo.html"];
   pygarrayimage [URL="http://code.astraw.com/projects/motmot/pygarrayimage.html"];
   flytrax [URL="http://code.astraw.com/projects/motmot/flytrax.html"];
