@@ -27,7 +27,7 @@ There is also firmware for a $30 USB device to :ref:`trigger frame
 acquisition and sample analog inputs with precise timing
 <fview_ext_trig-overview>`.
 
-.. :ref:`trigger camera frame acquisition and acquire analog input data with precise timing <fview_ext_trig_overview>`.
+.. :ref:`trigger camera frame acquisition and acquire analog input data with precise timing <fview_ext_trig-overview>`.
 
 .. _Python:  http://python.org/
 .. _numpy: http://numpy.scipy.org/

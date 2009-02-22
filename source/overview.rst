@@ -145,10 +145,12 @@ Code repository
 ---------------
 
 The subversion repository is hosted at
-https://code.astraw.com/motmot/trunk/. We also have a `Trac site`__.
+https://code.astraw.com/motmot/trunk/. We also have a `Trac
+site`__. :ref:`The trigger device <fview_ext_trig-overview>`
+firmware and Python host code is hosted at github__.
 
 __ http://code.astraw.com/projects/motmot/trac
-
+__ http://github.com/astraw/motmot-camtrig/tree/master
 
 Mailing list
 ============
