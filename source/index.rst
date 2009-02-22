@@ -38,14 +38,14 @@ supported operating system. The components do work on Windows and Mac
 OS X, although binary packages for these platforms are not currently
 provided.
 
-.. figure:: motmot-modules.png
-  :alt: motmot packages
+.. raw:: html
+   :file: graph.html
 
-  Relationships of important motmot components. Python and numpy are
-  required for almost all modules, and are not shown. Shaded
-  rectangular nodes are GUI components, while rounded nodes are
-  libraries in C, C++, or Python. Dotted arrows indicate an optional
-  dependency (plugin relationship) rather than a hard dependency.
+Figure: the relationships of important motmot components. Python and
+numpy are required for almost all modules, and are not shown. Shaded
+rectangular nodes are GUI components, while rounded nodes are
+libraries in C, C++, or Python. Dotted arrows indicate an optional
+dependency (plugin relationship) rather than a hard dependency.
 
 This software was developed by `Andrew Straw`__ within the `Dickinson
 Lab`__ at Caltech__ to facilitate experiments in the neurobiology,

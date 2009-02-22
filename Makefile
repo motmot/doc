@@ -25,7 +25,9 @@ help:
 
 clean:
 	-rm -rf build/*
-	-rm -f source/motmot-modules.svg source/motmot-modules.pdf source/motmot-modules.png
+	-rm -f source/motmot-modules.svg source/motmot-modules.pdf \
+		source/motmot-modules.png source/graph.png source/graph.map \
+		source/graph.html
 
 source/motmot-modules.svg: source/motmot.dot
 	cat $< | dot -Tsvg -o$@
@@ -36,12 +38,23 @@ source/motmot-modules.pdf: source/motmot.dot
 %.png: %.svg
 	inkscape -f $< --export-dpi=100 --export-png=$@
 
-html: source/motmot-modules.png
+source/graph.png source/graph.map: source/motmot.dot
+	cat $< | dot -Tcmap -osource/graph.map -Tpng -osource/graph.png
+
+source/graph.html: source/graph.map
+	echo '<IMG SRC="graph.png" USEMAP="#map1" border="0"/>' > $@
+	echo '<map name="map1">' >> $@
+	cat $< >> $@
+	echo '</map>' >> $@
+	echo '<p>' >> $@
+
+html: source/graph.png source/graph.html
 	mkdir -p build/html build/doctrees
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) build/html
 	@echo
 	@echo "Build finished. The HTML pages are in build/html."
 	cp source/_static/.htaccess build/html/
+	cp source/graph.png build/html/
 
 pickle:
 	mkdir -p build/pickle build/doctrees

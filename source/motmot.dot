@@ -5,7 +5,8 @@ digraph G {
     libcamiface -> cam_iface;
     cam_iface -> fview;
     fview -> flytrax;
-    fview_ext_trig -> fview;
+    fview -> fview_ext_trig;
+    fview_ext_trig -> fview [style=dotted];
     pygarrayimage -> wxglvideo;
     wxglvideo -> fview;
     realtime_image_analysis -> flytrax;
@@ -35,17 +36,26 @@ digraph G {
   libcamiface [label="libcamiface (C)"];
   cam_iface [label="cam_iface (Python)"];
 
-  quicktime [label="QuickTime"];
-  libdc1394 [label="libdc1394"];
-  libprosilica [label="libprosilica"];
-  ipp [label="Framewave or Intel IPP"];
-  ipp [label="Intel IPP"];
+  quicktime [label="QuickTime", URL="http://www.apple.com/quicktime/"];
+  libdc1394 [label="libdc1394", 
+             URL="http://damien.douxchamps.net/ieee1394/libdc1394/"];
+  libprosilica [label="libprosilica",
+                URL="http://www.prosilica.com/"];
+  ipp [label="Intel IPP", URL="http://intel.com/software/products/ipp"];
   opengl [label="OpenGL",
-          URL="http://opengl.org/",
-          tooltip="OpenGL plotting library"];
-  pyglet [label="pyglet"];
-  wxpython [label="wxPython"];
-  fview [shape=box,style=filled];
+          URL="http://opengl.org/"];
+  pyglet [URL="http://www.pyglet.org/"];
+  wxpython [URL="http://www.wxpython.org/"];
+
+  libcamiface [URL="file:///home/astraw/src/motmot/doc/build/html/libcamiface.html"];
+  cam_iface [URL="http://code.astraw.com/projects/motmot/cam_iface.html"]
+  fview [shape=box,style=filled,
+         URL="http://code.astraw.com/projects/motmot/fview.html"];
   trackem [shape=box,style=filled];
   flytrax [shape=box,style=filled];
+  fview_ext_trig [shape=box,style=filled,
+              URL="http://code.astraw.com/projects/motmot/fview_ext_trig.html"];
+  wxglvideo [URL="http://code.astraw.com/projects/motmot/wxglvideo.html"];
+  pygarrayimage [URL="http://code.astraw.com/projects/motmot/pygarrayimage.html"];
+  flytrax [URL="http://code.astraw.com/projects/motmot/flytrax.html"];
 }
