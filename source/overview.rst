@@ -79,8 +79,11 @@ Packages within motmot
 Download
 ========
 
-The latest releases are on PyPI, and can be downloaded with
-``easy_install``.
+The releases are on PyPI__. Search for the motmot packages with `this
+link`__.
+
+__ http://pypi.python.org/pypi
+__ http://pypi.python.org/pypi?%3Aaction=search&term=motmot&submit=search
 
 .. _ubuntu_packages:
 
