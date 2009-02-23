@@ -15,5 +15,6 @@ motmot. To see how these all fit together, look at the :ref:`overview
   fview.rst
   flytrax.rst
   pygarrayimage.rst
+  fly-movie-format.rst
   pygxinput.rst
   wxglvideo.rst

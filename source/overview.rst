@@ -42,7 +42,7 @@ Packages within motmot
 
 * FastImage - Pyrex based wrapper of Intel's Integrated Performance
   Primitives (IPP) Library
-* FlyMovieFormat - Code for manipulating .fmf movies. Includes Python
+* :mod:`motmot.FlyMovieFormat` - Code for manipulating .fmf movies. Includes Python
   (read/write) and MATLAB® (read-only) bindings.
 * realtime_image_analysis - Implements background subtraction and 2D
   feature extraction using FastImage
@@ -101,7 +101,7 @@ C and Python installation issues.
 **These instructions are for Ubuntu 8.04 (Hardy Heron).** Pre-built
 binaries are not provided for other distributions.
 
-1. Start the Terminal 
+1. Start the Terminal
 (Applications->Accessories->Terminal).
 
 2. In the terminal window, type the following. This will add the
@@ -112,7 +112,7 @@ repository to your list of repositories::
 
 You will be prompted for your password -- this is normal.
 
-3. Accept Andrew Straw's keyring. Still from in the terminal window, 
+3. Accept Andrew Straw's keyring. Still from in the terminal window,
 type::
 
   sudo apt-get update && sudo apt-get install astraw-keyring && sudo apt-get update
@@ -124,7 +124,7 @@ astraw-keyring Install these packages without verification
 [y/N]?"). This is normal; type "y" (for yes) to trust Andrew Straw to
 install software on your computer.
 
-4. Start Synaptic 
+4. Start Synaptic
 (System->Administration->Synaptic Package Manager).
 
 5. Install fview by clicking the "Search" button and typing
@@ -143,7 +143,7 @@ group. In the terminal window again, type::
 Once you did this, you will need to log out and log in again for the
 new group membership to take effect.
 
-8. Start fview (Applications->Sound & 
+8. Start fview (Applications->Sound &
 Video->fview).
 
 Code repository
@@ -212,6 +212,6 @@ Similar closed source libraries/applications
 
 __ http://www.ioindustries.com/software.htm
 __ http://www.norpix.com/
-__ http://www.norpix.com/products/api.php 
+__ http://www.norpix.com/products/api.php
 __ http://www.mathworks.com/products/imaq/
 
