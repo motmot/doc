@@ -18,3 +18,4 @@ motmot. To see how these all fit together, look at the :ref:`overview
   fly-movie-format.rst
   pygxinput.rst
   wxglvideo.rst
+  fastimage.rst
