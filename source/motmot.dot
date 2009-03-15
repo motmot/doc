@@ -34,6 +34,8 @@ digraph G {
   libcamiface [label="libcamiface (C)"];
   cam_iface [label="cam_iface (Python)"];
 
+  fastimage [label="FastImage"];
+
   quicktime [label="QuickTime", URL="http://www.apple.com/quicktime/"];
   libdc1394 [label="libdc1394", 
              URL="http://damien.douxchamps.net/ieee1394/libdc1394/"];
