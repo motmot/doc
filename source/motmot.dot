@@ -41,7 +41,7 @@ digraph G {
              URL="http://damien.douxchamps.net/ieee1394/libdc1394/"];
   libprosilica [label="libprosilica",
                 URL="http://www.prosilica.com/"];
-  ipp [label="Intel IPP", URL="http://intel.com/software/products/ipp"];
+  ipp [label="Intel IPP or AMD Framewave", URL="http://intel.com/software/products/ipp"];
   opengl [label="OpenGL",
           URL="http://opengl.org/"];
   pyglet [URL="http://www.pyglet.org/"];
