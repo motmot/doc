@@ -1,1 +1,1 @@
-../../cam_iface/README.rst
+../../libcamiface/README.rst
