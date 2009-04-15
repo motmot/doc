@@ -30,6 +30,8 @@ This tutorial shows how to trigger a voltage pulse when a change
 exceeding a pre-determined threshold occurrs within a region of
 interest.
 
+**This section is not finished.**
+
 1. Copy the traited plugin template into a new directory.
 2. Change all names to reflect your new plugin name.
 3. Implement your business logic in ``process_frame()``.
@@ -43,3 +45,5 @@ key to ``entry_points``. For the above example, this would be::
   entry_points = {
     'motmot.fview.plugins':'fview_ext_trig = motmot.fview_ext_trig.fview_ext_trig:FviewExtTrig',
      }
+
+.. _traits: http://code.enthought.com/projects/traits/
