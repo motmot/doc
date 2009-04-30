@@ -149,13 +149,20 @@ Video->fview).
 Code repository
 ---------------
 
-The subversion repository is hosted at
-https://code.astraw.com/motmot/trunk/. We also have a `Trac
-site`__. :ref:`The trigger device <fview_ext_trig-overview>`
-firmware and Python host code is hosted at github__.
+The source code repository is hosted at
+http://github.com/motmot/. :ref:`The trigger device
+<fview_ext_trig-overview>` firmware and Python host code is hosted in
+a `slightly different location`__.
 
-__ http://code.astraw.com/projects/motmot/trac
 __ http://github.com/astraw/motmot-camtrig/tree/master
+
+To check out the source code using git, use::
+
+  git clone git://github.com/motmot/motmot.git
+  cd motmot
+  git submodule update --init
+
+See the README.rst file in the cloned directory for more information.
 
 Mailing list
 ============
