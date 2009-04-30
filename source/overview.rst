@@ -85,6 +85,13 @@ link`__.
 __ http://pypi.python.org/pypi
 __ http://pypi.python.org/pypi?%3Aaction=search&term=motmot&submit=search
 
+.. Also keep motmot/libcamiface/README.rst in sync with download page.
+
+:ref:`libcamiface <libcamiface>`, as a pure C package, is not hosted
+on PyPI. Please download from its `release page`__.
+
+__ http://github.com/motmot/libcamiface/downloads
+
 .. _ubuntu_packages:
 
 Ubuntu packages
