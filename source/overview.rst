@@ -187,11 +187,12 @@ Similar open source libraries
 -----------------------------
 
 See the `Augmented Reality Toolkit`__, http://muonics.net/, unicap__,
-OpenCV__, and libcam__ for lots of interesting and fun stuff.
+OpenCV__, pyvision__, and libcam__ for lots of interesting and fun stuff.
 
 __ http://artoolkit.sourceforge.net/
 __ http://unicap-imaging.org/
 __ http://opencvlibrary.sourceforge.net/
+__ http://apps.sourceforge.net/mediawiki/pyvision/index.php
 __ http://code.google.com/p/libcam/
 
 GenICam™ and GigEVision™
