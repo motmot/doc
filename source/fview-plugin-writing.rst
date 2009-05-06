@@ -23,19 +23,6 @@ To test your plugin, you can you the :command:`fview` command
 directly, or you may use :command:`fview_fmf_replay` to test your
 plugin on a saved video recording.
 
-Tutorial -- create a plugin that triggers a pulse when change happens
----------------------------------------------------------------------
-
-This tutorial shows how to trigger a voltage pulse when a change
-exceeding a pre-determined threshold occurrs within a region of
-interest.
-
-**This section is not finished.**
-
-1. Copy the traited plugin template into a new directory.
-2. Change all names to reflect your new plugin name.
-3. Implement your business logic in ``process_frame()``.
-
 Register your FView plugin
 --------------------------
 
@@ -47,3 +34,10 @@ key to ``entry_points``. For the above example, this would be::
      }
 
 .. _traits: http://code.enthought.com/projects/traits/
+
+Tutorial
+--------
+
+.. toctree::
+
+  fview-plugin-tutorial-periodic-trigger.rst
