@@ -60,6 +60,7 @@ __ http://www.caltech.edu/
   :maxdepth: 1
 
   overview.rst
+  download.rst
   applications.rst
   fview-plugin-writing.rst
   camtrig/OVERVIEW.rst
