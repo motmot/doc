@@ -41,3 +41,4 @@ Tutorial
 .. toctree::
 
   fview-plugin-tutorial-periodic-trigger.rst
+  fview-plugin-tutorial-change-trigger.rst
