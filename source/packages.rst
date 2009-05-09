@@ -19,3 +19,4 @@ motmot. To see how these all fit together, look at the :ref:`overview
   pygxinput.rst
   wxglvideo.rst
   fastimage.rst
+  imops.rst

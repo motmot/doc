@@ -36,7 +36,7 @@ Packages within motmot
 * :mod:`pygarrayimage` - transfer Python objects supporting the array
   interface to OpenGL textures
 * wxvideo - wxPython interface for video
-* imops - Python extension module to manipulate image codings
+* :mod:`motmot.imops` - manipulate image codings
 
 **Analysis infrastructure**
 
