@@ -11,7 +11,7 @@ motmot. To see how these all fit together, look at the :ref:`overview
 
   libcamiface.rst
   cam_iface.rst
-  camtrig/motmot.fview_ext_trig/API.rst
+  motmot.fview_ext_trig.rst
   fview.rst
   flytrax.rst
   pygarrayimage.rst

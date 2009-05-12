@@ -105,12 +105,7 @@ Video->fview).
 Code repository
 ===============
 
-The source code repository is hosted at
-http://github.com/motmot/. :ref:`The trigger device
-<fview_ext_trig-overview>` firmware and Python host code is hosted in
-a `slightly different location`__.
-
-__ http://github.com/astraw/motmot-camtrig/tree/master
+The source code repository is hosted at http://github.com/motmot/.
 
 To check out the source code using git, use::
 
