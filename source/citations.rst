@@ -45,3 +45,9 @@ Han, Shuo, Straw, Andrew D., Dickinson, Michael H. & Murray, Richard
 M. (2009) A Real-Time Helicopter Testbed for Insect-Inspired Visual
 Flight Control. *Proceedings of the 2009 IEEE Conference on Robotics
 and Automation*
+
+K. Branson, A. Robie, J. Bender, P. Perona, and M.H. Dickinson (2009)
+High-throughput Ethomics in Large Groups of *Drosophila*.  *Nature
+Methods* doi: `10.1038/nmeth.1328`__
+
+__ http://dx.doi.org/10.1038/nmeth.1328
