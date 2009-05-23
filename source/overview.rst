@@ -94,13 +94,14 @@ Similar open source libraries
 -----------------------------
 
 See the `Augmented Reality Toolkit`__, http://muonics.net/, unicap__,
-OpenCV__, pyvision__, libcam__, and `Micro Manager`__ for lots of
-interesting and fun stuff.
+OpenCV__, pyvision__, camunits__ (formerly libcam__), and `Micro
+Manager`__ for lots of interesting and fun stuff.
 
 __ http://artoolkit.sourceforge.net/
 __ http://unicap-imaging.org/
 __ http://opencvlibrary.sourceforge.net/
 __ http://apps.sourceforge.net/mediawiki/pyvision/index.php
+__ http://code.google.com/p/camunits/
 __ http://code.google.com/p/libcam/
 __ http://www.micro-manager.org/
 
