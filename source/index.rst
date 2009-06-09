@@ -64,6 +64,7 @@ __ http://www.caltech.edu/
   applications.rst
   fview-plugin-writing.rst
   camtrig/OVERVIEW.rst
+  development.rst
   packages.rst
   citations.rst
 

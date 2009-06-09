@@ -102,15 +102,8 @@ new group membership to take effect.
 8. Start fview (Applications->Sound &
 Video->fview).
 
-Code repository
-===============
+Download the version control repository
+=======================================
 
-The source code repository is hosted at http://github.com/motmot/.
-
-To check out the source code using git, use::
-
-  git clone git://github.com/motmot/motmot.git
-  cd motmot
-  git submodule update --init
-
-See the README.rst file in the cloned directory for more information.
+See the :ref:`development` page for details on how to download the
+latest version control repository.
