@@ -47,7 +47,7 @@ Ubuntu packages
 ---------------
 
 I maintain an Ubuntu repository to enable myself and my collaborators
-to use these packages on with minimal installation
+to use these packages with minimal installation
 difficulties. Following these instructions is, by far, the easiest way
 to get started with motmot, especially if you're not experienced with
 C and Python installation issues.
