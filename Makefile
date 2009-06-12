@@ -39,11 +39,13 @@ source/motmot-modules.pdf: source/motmot.dot
 	inkscape -f $< --export-dpi=100 --export-png=$@
 
 source/graph.png source/graph.map: source/motmot.dot
-	cat $< | dot -Tcmapx -osource/graph.map -Tpng:cairo -osource/graph.png
+	cat $< | dot -Tcmap -osource/graph.map -Tpng:cairo -osource/graph.png
 
 source/graph.html: source/graph.map
 	echo '<IMG SRC="graph.png" USEMAP="#map1" border="0"/>' > $@
+	echo '<map name="map1">' >> $@
 	cat $< >> $@
+	echo '</map>' >> $@
 	echo '<p>' >> $@
 
 html: source/graph.png source/graph.html
