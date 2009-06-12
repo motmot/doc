@@ -4,6 +4,36 @@
 Download and installation instructions
 **************************************
 
+.. _supported-OSes:
+
+Supported operating systems
+===========================
+
+Installation of applications built from Motmot components, such as the
+movie acquisition program :command:`fview` or the FlyMovieFormat
+player :command:`playfmf`, currently requires installation of several
+constituent modules. Due to this modular, multi-component nature of
+Motmot, use of a package manager facilitates easy installation.
+
+Packages for the native package management system of Ubuntu Linux
+(release "Hardy Heron", version 8.04) are provided, making this is the
+the easiest way to get started and the best tested operating
+system. The provided Ubuntu packages manage these dependencies,
+allowing automatic installation and updates, while on other systems,
+these dependencies must be handled manually.
+
+The components are also tested on Windows and Mac OS X. Source code,
+Windows binaries, and for :ref:`libcamiface <libcamiface>`, Mac
+binaries, are provided.
+
+To summarize:
+
+ * Ubuntu Linux (8.04): **best supported**, native package management. See 
+   :ref:`below <ubuntu-packages>`.
+ * Windows 32 bit: binary packages provided for most components
+ * Mac OS X: binary packages provided for libcamiface, build the rest 
+   from source
+ * Other operating systems: build from source
 
 Download
 ========
@@ -42,6 +72,8 @@ following command::
   easy_install motmot.fview
 
 This will download and install FView and all its Python dependencies.
+
+.. _ubuntu-packages:
 
 Ubuntu packages
 ---------------
@@ -102,8 +134,8 @@ new group membership to take effect.
 8. Start fview (Applications->Sound &
 Video->fview).
 
-Download the version control repository
-=======================================
+Download direct from the source code repository
+===============================================
 
 See the :ref:`development` page for details on how to download the
 latest version control repository.

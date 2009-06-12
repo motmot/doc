@@ -12,7 +12,7 @@ routinely use these libraries to process data from cameras with data
 rates up to 60 MB per second (with processing power to spare) on
 commodity hardware.
 
-The program :mod:`fview` is a high-level application for viewing
+The program :command:`fview` is a high-level application for viewing
 camera output, adjusting camera parameters, streaming video to disk,
 and providing an interface for that realtime processing routines can
 plugin to. Much of the rest of motmot is a modular set infrastructure
@@ -32,11 +32,7 @@ acquisition and sample analog inputs with precise timing
 .. _Python:  http://python.org/
 .. _numpy: http://numpy.scipy.org/
 
-Motmot is open source software under the BSD license. Because the
-majority of development happens on Ubuntu Linux, this is the best
-supported operating system. The components do work on Windows and Mac
-OS X, although binary packages for these platforms are not currently
-provided.
+Motmot is open source software under the BSD license. See the :ref:`download` page, including information about :ref:`supported-OSes`, for more information.
 
 .. raw:: html
    :file: graph.html
