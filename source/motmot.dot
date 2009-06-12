@@ -1,5 +1,13 @@
 digraph G {
-  size ="6,4";
+  graph [
+         fontsize=16
+          fontname = "Arial"
+          ];
+  node [
+          fontsize=8
+          fontname = "Arial"
+          ];
+
   subgraph cluster0 {
     cam_iface -> libcamiface;
     fview -> cam_iface;
