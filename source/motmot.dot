@@ -66,4 +66,5 @@ digraph G {
   wxglvideo [URL="http://code.astraw.com/projects/motmot/wxglvideo.html"];
   pygarrayimage [URL="http://code.astraw.com/projects/motmot/pygarrayimage.html"];
   flytrax [URL="http://code.astraw.com/projects/motmot/flytrax.html"];
+  FlyMovieFormat [URL="http://code.astraw.com/projects/motmot/fly-movie-format.html"];
 }
