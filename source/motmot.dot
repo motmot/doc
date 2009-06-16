@@ -55,7 +55,7 @@ digraph G {
   pyglet [URL="http://www.pyglet.org/"];
   wxpython [URL="http://www.wxpython.org/"];
 
-  libcamiface [URL="file:///home/astraw/src/motmot/doc/build/html/libcamiface.html"];
+  libcamiface [URL="http://code.astraw.com/projects/motmot/libcamiface.html"];
   cam_iface [URL="http://code.astraw.com/projects/motmot/cam_iface.html"]
   fview [shape=box,style=filled,
          URL="http://code.astraw.com/projects/motmot/fview.html"];
