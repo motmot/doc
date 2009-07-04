@@ -58,6 +58,7 @@ __ http://www.caltech.edu/
   overview.rst
   download.rst
   applications.rst
+  faq.rst
   fview-plugin-writing.rst
   camtrig/OVERVIEW.rst
   development.rst

@@ -32,10 +32,10 @@ Packages within motmot
 
 **Core display infrastructure**
 
-* :mod:`wxglvideo` - wxPython OpenGL interface for video
+* :mod:`motmot.wxglvideo` - wxPython OpenGL interface for video
 * :mod:`pygarrayimage` - transfer Python objects supporting the array
   interface to OpenGL textures
-* wxvideo - wxPython interface for video
+* :mod:`motmot.wxvideo` - wxPython interface for video
 * :mod:`motmot.imops` - manipulate image codings
 
 **Analysis infrastructure**
