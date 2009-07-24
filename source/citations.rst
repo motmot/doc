@@ -4,16 +4,16 @@ Citations
 
 **If you use Motmot, please cite this paper:**
 
-Straw, A.D., Dickinson, M.H. (2009) `Motmot, an open-source toolkit
+Straw, A.D. and Dickinson, M.H. (2009) `Motmot, an open-source toolkit
 for realtime video acquisition and analysis.`__ `Source Code for
 Biology and Medicine` doi: 10.1186/1751-0473-4-5 PDF__
 
 __ http://www.scfbm.org/content/4/1/5
 __ http://www.scfbm.org/content/pdf/1751-0473-4-5.pdf
 
-If you publish work that used motmot, I (Andrew Straw) ask that you
+*If you publish work that used motmot, I (Andrew Straw) ask that you
 cite this paper. These citations will help my employment and funding
-situation and thus indirectly fund Motmot development and support.
+situation and thus indirectly fund Motmot development and support.*
 
 Scientific papers which used the motmot suite of tools
 ======================================================
