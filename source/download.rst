@@ -95,8 +95,8 @@ binaries are not provided for other distributions.
 2. In the terminal window, type the following. This will add the
 repository to your list of repositories::
 
-  sudo wget http://debs.astraw.com/sources.list.d/astraw-hardy.list --output-document=/etc/apt/sources.list.d/astraw-hardy.list
-  sudo wget http://debs.astraw.com/sources.list.d/universe-hardy.list --output-document=/etc/apt/sources.list.d/universe-hardy.list
+  sudo wget --output-document=/etc/apt/sources.list.d/astraw.list http://debs.astraw.com/sources.list.d/astraw-$(lsb_release -cs).list
+  sudo wget --output-document=/etc/apt/sources.list.d/universe.list http://debs.astraw.com/sources.list.d/universe-$(lsb_release -cs).list
 
 You will be prompted for your password -- this is normal.
 
