@@ -16,7 +16,7 @@ constituent modules. Due to this modular, multi-component nature of
 Motmot, use of a package manager facilitates easy installation.
 
 Packages for the native package management system of Ubuntu Linux
-(release "Hardy Heron", version 8.04) are provided, making this is the
+(release "Lucid Lynx", version 10.04) are provided, making this is the
 the easiest way to get started and the best tested operating
 system. The provided Ubuntu packages manage these dependencies,
 allowing automatic installation and updates, while on other systems,
@@ -28,7 +28,7 @@ binaries, are provided.
 
 To summarize:
 
- * Ubuntu Linux (8.04): **best supported**, native package management. See 
+ * Ubuntu Linux (10.04): **best supported**, native package management. See
    :ref:`below <ubuntu-packages>`.
  * Windows 32 bit: binary packages provided for most components
  * Mac OS X: binary packages provided for libcamiface, build the rest 
@@ -86,7 +86,7 @@ C and Python installation issues.
 
 .. _Ubuntu: http://www.ubuntu.com/
 
-**These instructions are for Ubuntu 8.04 (Hardy Heron).** Pre-built
+**These instructions are for Ubuntu 10.04 (Lucid Lynx).** Pre-built
 binaries are not provided for other distributions.
 
 1. Start the Terminal
@@ -95,6 +95,7 @@ binaries are not provided for other distributions.
 2. In the terminal window, type the following. This will add the
 repository to your list of repositories::
 
+  sudo add-apt-repository ppa:astraw/ppa
   sudo wget --output-document=/etc/apt/sources.list.d/astraw.list http://debs.astraw.com/sources.list.d/astraw-$(lsb_release -cs).list
   sudo wget --output-document=/etc/apt/sources.list.d/universe.list http://debs.astraw.com/sources.list.d/universe-$(lsb_release -cs).list
 
@@ -123,10 +124,12 @@ matching your search string.
 6. In the small empty square next to "python-motmot-fview", click once
 and select "Mark for installation". Click on the "Apply" button.
 
-7. If you are using a firewire camera, add your user to the "disk"
-group. In the terminal window again, type::
+7. If you are using a firewire camera, add your user to the "video"
+group, and change the owner of the raw1394 device to this group. In
+the terminal window again, type::
 
-  sudo adduser $USER disk
+  sudo adduser $USER video
+  sudo chown .video /dev/raw1394
 
 Once you did this, you will need to log out and log in again for the
 new group membership to take effect.
