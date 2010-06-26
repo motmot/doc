@@ -32,6 +32,7 @@ digraph G {
   libcamiface -> quicktime [style=dotted];
   libcamiface -> libdc1394 [style=dotted];
   libcamiface -> libprosilica [style=dotted];
+  libcamiface -> flycap2 [style=dotted];
   wxglvideo -> wxpython;
   fview -> wxpython;
   pyglet -> opengl;
@@ -50,6 +51,7 @@ digraph G {
   libprosilica [label="libprosilica",
                 URL="http://www.prosilica.com/"];
   ipp [label="Intel IPP or AMD Framewave", URL="http://intel.com/software/products/ipp"];
+  flycap2 [label="PGR FlyCapture2", URL="http://www.ptgrey.com/products/pgrflycapture/index.asp"];
   opengl [label="OpenGL",
           URL="http://opengl.org/"];
   pyglet [URL="http://www.pyglet.org/"];
