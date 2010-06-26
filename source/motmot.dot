@@ -45,11 +45,11 @@ digraph G {
 
   fastimage [label="FastImage"];
 
-  quicktime [label="QuickTime", URL="http://www.apple.com/quicktime/"];
+  quicktime [label="QuickTime SequenceGrabber", URL="http://www.apple.com/quicktime/"];
   libdc1394 [label="libdc1394", 
              URL="http://damien.douxchamps.net/ieee1394/libdc1394/"];
-  libprosilica [label="libprosilica",
-                URL="http://www.prosilica.com/"];
+  libprosilica [label="AVT GigE PvAPI",
+                URL="http://www.alliedvisiontec.com/us/products/software/windows/gige-sdk-pvapi.html"];
   ipp [label="Intel IPP or AMD Framewave", URL="http://intel.com/software/products/ipp"];
   flycap2 [label="PGR FlyCapture2", URL="http://www.ptgrey.com/products/pgrflycapture/index.asp"];
   opengl [label="OpenGL",
