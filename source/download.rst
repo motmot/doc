@@ -110,12 +110,13 @@ binaries are not provided for other distributions.
 1. Start the Terminal
 (Applications->Accessories->Terminal).
 
-2. In the terminal window, type the following. This will add the
-repository to your list of repositories::
+2. In the terminal window, type the following. This will add Andrew
+Straw's repositories (the PPA is for purely open source software, and
+the debs.astraw.com site packages non-open software) to your list of
+repositories::
 
   sudo add-apt-repository ppa:astraw/ppa
   sudo wget --output-document=/etc/apt/sources.list.d/astraw.list http://debs.astraw.com/sources.list.d/astraw-$(lsb_release -cs).list
-  sudo wget --output-document=/etc/apt/sources.list.d/universe.list http://debs.astraw.com/sources.list.d/universe-$(lsb_release -cs).list
 
 You will be prompted for your password -- this is normal.
 
