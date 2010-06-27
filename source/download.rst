@@ -4,6 +4,22 @@
 Download and installation instructions
 **************************************
 
+.. _win-fview:
+
+FView application on Windows
+============================
+
+Kristin Branson (Janelia Farm Resarch Campus, HHMI) has kindly
+provided an `installer for a Windows version of FView`_. This installs
+FView.exe, which can be used to record uncompressed .fmf movies. The
+FlyTrax plugin is also included, allowing realtime tracking of
+individual flies. This downloader was built with the latest
+:ref:`libcamiface <libcamiface>` installer, and we recommend Pt. Grey
+cameras. (Their inexpensive Firefly MV USB camera is a good way to get
+started.)
+
+.. _installer for a Windows version of FView: http://code.astraw.com/fview-installer
+
 .. _supported-OSes:
 
 Supported operating systems
@@ -24,13 +40,15 @@ these dependencies must be handled manually.
 
 The components are also tested on Windows and Mac OS X. Source code,
 Windows binaries, and for :ref:`libcamiface <libcamiface>`, Mac
-binaries, are provided.
+binaries, are provided. See above for a :ref:`FView installer for Windows
+<win-fview>`.
 
 To summarize:
 
  * Ubuntu Linux (10.04): **best supported**, native package management. See
    :ref:`below <ubuntu-packages>`.
- * Windows 32 bit: binary packages provided for most components
+ * Windows 32 bit: binary packages provided for most components (see above
+   :ref:`for FView installer <win-fview>`)
  * Mac OS X: binary packages provided for libcamiface, build the rest 
    from source
  * Other operating systems: build from source
