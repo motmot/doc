@@ -6,8 +6,8 @@ Download and installation instructions
 
 .. _win-fview:
 
-FView application on Windows
-============================
+Quick install: FView application on Windows
+=============================================
 
 Kristin Branson (Janelia Farm Resarch Campus, HHMI) has kindly
 provided an `installer for a Windows version of FView`_. This installs
@@ -15,12 +15,16 @@ FView.exe, which can be used to record uncompressed .fmf movies. The
 FlyTrax plugin is also included, allowing realtime tracking of
 individual flies. This downloader was built with the latest
 :ref:`libcamiface <libcamiface>` installer, and we recommend Pt. Grey
-cameras. (Their inexpensive Firefly MV USB camera is a good way to get
-started.)
+cameras for this release. (Their inexpensive Firefly MV USB camera is
+a good way to get started.)
 
 .. _installer for a Windows version of FView: http://code.astraw.com/fview-installer
 
 .. _supported-OSes:
+
+************************
+Full install information
+************************
 
 Supported operating systems
 ===========================
