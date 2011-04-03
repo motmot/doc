@@ -62,6 +62,8 @@ Packages within motmot
 * fview_c_callback - example fview plugin that calls pure C code
 * fview_live_histogram - example fview plugin that calls pure Python
   code
+* :mod:`strokelitude` - realtime image-based analysis of tethered-flight
+  Drosophila experiments
 * trackem - multiple point realtime tracker
 
 **Miscellaneous**
